@@ -1,0 +1,12 @@
+<div class="collection">
+  <a href="#!" class="collection-item"
+  (click)="onSelected()" >
+    <h4>{{ recipe.name }}
+      <img
+      [src]="recipe.imagePath"
+      alt="{{ recipe.name }}"
+      class="right"
+      style="max-height: 50px;"></h4>
+    <p>{{ recipe.description }} </p>
+  </a>
+</div>
